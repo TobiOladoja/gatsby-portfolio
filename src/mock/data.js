@@ -17,41 +17,44 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'js.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.docdroid.net/uB3UFkc/tobi-oladoja-newcv-1-pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'githubfinder.png',
+    title: 'Github User Finder',
+    info:
+      'A website I built using React Hooks and Context. Data was fetched from the github API, so when a user was searched it was displayed on the screen. ',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://githubfindermvp.netlify.app/',
+    repo: 'https://github.com/TobiOladoja/githubfindernew', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'weatherapp.png',
+    title: 'Weather App',
+    info:
+      'A website I built using Vanilla Javascript. Data was fetched from the AccuWeather API, so when a location was searched it was displayed on the screen with a complimentary image representing the weather type.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://tobivanillajsweatherapp.netlify.app/',
+    repo: 'https://github.com/TobiOladoja/vanillajs-weatherapp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'breakingbad.png',
+    title: 'Breaking Bad Movie',
+    info:
+      'A website I built using React Hooks. Data was fetched from the Breaking Bad API - Anytime a character is searched it fires off an event and makes a request to the API and narrows it down by the name, we are going to get images of them being displayed.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://tobibreakingbad.netlify.app/',
+    repo: 'https://github.com/TobiOladoja/react-breakingbad', // if no repo, the button will not show up
   },
 ];
 
@@ -68,22 +71,18 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/longtermtobi',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/tobiprinceoladoja/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/tobioladoja',
     },
   ],
 };
